@@ -11,6 +11,7 @@ o.wildmenu = "longest,list,full"
 -- Basics
 o.autoindent = true
 o.background = "dark"
+o.cursorline = true
 o.fileformat = "unix"
 o.errorbels = false
 o.history = "5000"
