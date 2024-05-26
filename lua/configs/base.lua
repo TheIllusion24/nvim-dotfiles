@@ -6,14 +6,14 @@ opt.termguicolors = true
 
 -- Autocompletion
 o.wildmenu = true
-o.wildmenu = "longest,list,full"
+o.wildmenu = longest,list,full
 
 -- Basics
 o.autoindent = true
 o.background = "dark"
 o.fileformat = "unix"
-o.errorbels = false
-o.history = "5000"
+o.errorbells = false
+o.history = 5000
 o.hlsearch = true
 o.incsearch = true
 o.laststatus = 2
