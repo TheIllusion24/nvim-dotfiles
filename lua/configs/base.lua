@@ -24,8 +24,6 @@ o.showmode = true
 o.smartcase = true
 o.smartindent = true
 o.swapfile = false
-o.undofile = true
-o.undodir = vim.fn.expand('~/.local/share/nvim/undodir/')
 o.wrap = false
 
 -- Clipboard
