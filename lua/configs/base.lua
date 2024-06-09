@@ -1,12 +1,12 @@
-local bo = vim.bo
-local g = vim.g
-local o = vim.o
-local opt = vim.opt
-opt.termguicolors = true
+bo = vim.bo
+g = vim.g
+o = vim.o
+opt = vim.opt
 
 o.wildmenu = true
 o.wildmenu = longest,list,full
 
+o.termguicolors = true
 o.autoindent = true
 o.background = "dark"
 o.fileformat = "unix"
