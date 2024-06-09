@@ -1,4 +1,4 @@
-require("configs.base") -- General Settings
-require("configs.keybinds") -- Keybindings
-require("configs.undodir") -- Undodir
-require("configs.whitespace") -- Whitespace
+require("configs.base")
+require("configs.keybinds")
+require("configs.undodir")
+require("configs.whitespace")
