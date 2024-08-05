@@ -1,5 +1,5 @@
 local USER = os.getenv("USER")
-local UNDODIR = "/var/home/" .. USER .. "/.local/share/nvim/undodir/"
+local UNDODIR = "/home/" .. USER .. "/.local/share/nvim/undodir/"
 
 if vim.fn.isdirectory(UNDODIR) == 0 then
     vim.fn.mkdir(UNDODIR, "p", "0o700")
